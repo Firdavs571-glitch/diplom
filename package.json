@@ -1,0 +1,14 @@
+{
+  "name": "demographic-recommender",
+  "version": "1.0.0",
+  "description": "AI-powered demographic recommendation system with Telegram bot",
+  "scripts": {
+    "build": "npm install --prefix frontend && npm run build --prefix frontend",
+    "start": "node backend/server.js",
+    "dev:backend": "node backend/server.js",
+    "dev:frontend": "npm run dev --prefix frontend"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
